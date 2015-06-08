@@ -34,6 +34,7 @@
 		35EBE50A1B25FCD5000C1C39 /* hello.swift.CoreMotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hello.swift.CoreMotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35EBE50F1B25FCD5000C1C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35EBE5101B25FCD5000C1C39 /* hello_swift_CoreMotionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_swift_CoreMotionTests.swift; sourceTree = "<group>"; };
+		35EBE51A1B25FE06000C1C39 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		35EBE4EC1B25FCD5000C1C39 = {
 			isa = PBXGroup;
 			children = (
+				35EBE51A1B25FE06000C1C39 /* README.md */,
 				35EBE4F71B25FCD5000C1C39 /* hello.swift.CoreMotion */,
 				35EBE50D1B25FCD5000C1C39 /* hello.swift.CoreMotionTests */,
 				35EBE4F61B25FCD5000C1C39 /* Products */,
