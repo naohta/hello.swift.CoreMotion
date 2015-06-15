@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E26a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zf0-LN-bSq">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--MainVC-->
+        <scene sceneID="ZfI-si-t4M">
+            <objects>
+                <viewController id="zf0-LN-bSq" customClass="MainVC" customModule="hello_swift_CoreMotion" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qbk-gO-5ho"/>
+                        <viewControllerLayoutGuide type="bottom" id="izP-Cc-WOj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5kf-Gm-Gtx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y9L-JV-an5" userLabel="x = ... y = ... z = ...">
+                                <rect key="frame" x="139" y="253" width="44" height="61"/>
+                                <string key="text">x = ...
+y = ...
+z = ...</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="acceleration" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJf-Ux-dif">
+                                <rect key="frame" x="113" y="193" width="94" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="Y9L-JV-an5" secondAttribute="centerY" id="8AQ-LN-wVK"/>
+                            <constraint firstAttribute="centerX" secondItem="Y9L-JV-an5" secondAttribute="centerX" id="Bev-oo-ZR7"/>
+                            <constraint firstAttribute="centerX" secondItem="XJf-Ux-dif" secondAttribute="centerX" id="BhW-cH-7Mc"/>
+                            <constraint firstItem="Y9L-JV-an5" firstAttribute="top" secondItem="XJf-Ux-dif" secondAttribute="bottom" constant="40" id="RMF-hz-5Of"/>
+                            <constraint firstAttribute="centerX" secondItem="Y9L-JV-an5" secondAttribute="centerX" id="tnz-Gg-tbq"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="acceleLabel" destination="Y9L-JV-an5" id="lcc-9b-cjF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GYJ-c7-6eP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="723" y="394"/>
+        </scene>
+    </scenes>
+</document>
