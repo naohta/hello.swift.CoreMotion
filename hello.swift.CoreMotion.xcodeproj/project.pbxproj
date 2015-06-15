@@ -25,7 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		35EBE4F51B25FCD5000C1C39 /* hello.CM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hello.CM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35EBE4F51B25FCD5000C1C39 /* hello.swift.CoreMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hello.swift.CoreMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35EBE4F91B25FCD5000C1C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35EBE4FA1B25FCD5000C1C39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35EBE4FF1B25FCD5000C1C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		35EBE4F61B25FCD5000C1C39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35EBE4F51B25FCD5000C1C39 /* hello.CM.app */,
+				35EBE4F51B25FCD5000C1C39 /* hello.swift.CoreMotion.app */,
 				35EBE50A1B25FCD5000C1C39 /* hello.swift.CoreMotionTests.xctest */,
 			);
 			name = Products;
@@ -128,7 +128,7 @@
 			);
 			name = hello.swift.CoreMotion;
 			productName = hello.swift.CoreMotion;
-			productReference = 35EBE4F51B25FCD5000C1C39 /* hello.CM.app */;
+			productReference = 35EBE4F51B25FCD5000C1C39 /* hello.swift.CoreMotion.app */;
 			productType = "com.apple.product-type.application";
 		};
 		35EBE5091B25FCD5000C1C39 /* hello.swift.CoreMotionTests */ = {
@@ -342,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = hello.swift.CoreMotion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = hello.CM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
@@ -352,7 +352,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = hello.swift.CoreMotion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = hello.CM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -409,6 +409,7 @@
 				35EBE5161B25FCD5000C1C39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35EBE5171B25FCD5000C1C39 /* Build configuration list for PBXNativeTarget "hello.swift.CoreMotionTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				35EBE5191B25FCD5000C1C39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
