@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "35EBE4F41B25FCD5000C1C39"
-               BuildableName = "hello.CM.app"
+               BuildableName = "hello.swift.CoreMotion.app"
                BlueprintName = "hello.swift.CoreMotion"
                ReferencedContainer = "container:hello.swift.CoreMotion.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "35EBE4F41B25FCD5000C1C39"
-            BuildableName = "hello.CM.app"
+            BuildableName = "hello.swift.CoreMotion.app"
             BlueprintName = "hello.swift.CoreMotion"
             ReferencedContainer = "container:hello.swift.CoreMotion.xcodeproj">
          </BuildableReference>
@@ -77,7 +77,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "35EBE4F41B25FCD5000C1C39"
-            BuildableName = "hello.CM.app"
+            BuildableName = "hello.swift.CoreMotion.app"
             BlueprintName = "hello.swift.CoreMotion"
             ReferencedContainer = "container:hello.swift.CoreMotion.xcodeproj">
          </BuildableReference>
@@ -96,7 +96,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "35EBE4F41B25FCD5000C1C39"
-            BuildableName = "hello.CM.app"
+            BuildableName = "hello.swift.CoreMotion.app"
             BlueprintName = "hello.swift.CoreMotion"
             ReferencedContainer = "container:hello.swift.CoreMotion.xcodeproj">
          </BuildableReference>
