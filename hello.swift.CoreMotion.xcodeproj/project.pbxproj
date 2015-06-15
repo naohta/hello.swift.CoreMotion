@@ -25,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3509C78D1B2EAC0A00E113AD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		35EBE4F51B25FCD5000C1C39 /* hello.swift.CoreMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hello.swift.CoreMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35EBE4F91B25FCD5000C1C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35EBE4FA1B25FCD5000C1C39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				35EBE51A1B25FE06000C1C39 /* README.md */,
+				3509C78D1B2EAC0A00E113AD /* .gitignore */,
 				35EBE4F71B25FCD5000C1C39 /* hello.swift.CoreMotion */,
 				35EBE50D1B25FCD5000C1C39 /* hello.swift.CoreMotionTests */,
 				35EBE4F61B25FCD5000C1C39 /* Products */,
